@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+*.swp
+*.lock
+
+# Xcode user data
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+
+# Build outputs
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods / Carthage, if added later
+Pods/
+Cartfile.resolved
+Carthage/Build/
+
+# Firebase project-specific config
+ECG_Pi/GoogleService-Info.plist
+
+# Local environment files
+.env
+.env.*
+!.env.example
