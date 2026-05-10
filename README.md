@@ -146,32 +146,6 @@ Build example:
 xcodebuild -project ECG_Pi.xcodeproj -scheme ECG_Pi -destination 'platform=iOS Simulator,name=iPhone 16' build
 ```
 
-## Preparing for GitHub
-
-Recommended first commit flow:
-
-```bash
-git init
-git status --short
-git add .
-git status --short
-git commit -m "Initial ECG Pi iOS app"
-```
-
-Before pushing, confirm that this file is not staged:
-
-```text
-ECG_Pi/GoogleService-Info.plist
-```
-
-If you want to connect to a new GitHub repository:
-
-```bash
-git remote add origin https://github.com/<username>/<repository>.git
-git branch -M main
-git push -u origin main
-```
-
 ## Notes for Future Development
 
 - Replace placeholder login behavior with Firebase Auth account creation/sign-in.
